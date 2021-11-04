@@ -20,9 +20,12 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/icomoon/icomoon.css" rel="stylesheet">
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+
 
   <!-- =======================================================
     Template Name: Shield
@@ -40,7 +43,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" style="float: left;" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" style="float: left; padding: 0px 10px; margin:0px 5px" data-toggle="collapse" data-target=".navbar-collapse">
             <i class="bi bi-list" style="font-size:30px; color:#3498db;"></i>
           </button>
         </div>
@@ -60,8 +63,8 @@
   <div id="home"></div>
   <div id="headerwrap" name="home">
     <header class="clearfix">
-      <h1><span class="icon"></span></h1>
-      <p>Agroturystyka Pod Cieńkowem</p>
+      <p style="margin-top: 200px;">Agroturystyka Pod Cieńkowem</p>
+      
     </header>
   </div>
 
@@ -69,7 +72,9 @@
 
 <div class="container" id="pokoje" name="pokoje">
   <br>
-  <div class="row">
+  <div class="row" style="text-align: center;">
+    <p style="font-size: large;">Zapraszamy Państwa na wypoczynek letni i zimowy do naszego obiektu położonego
+      w Wiśle Malince przy stacji narciarskiej Cieńków.</p>
     <br>
     <h1 class="centered">POKOJE</h1>
     <hr>
@@ -98,12 +103,24 @@
               <h4 class="modal-title">Pokój 4 os. z balkonem A</h4>
             </div>
             <div class="modal-body">
-              <p><img class="img-responsive" src="img/portfolio/folio01.jpg" alt=""></p>
-              <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
-              <p><b><a href="#">Visit Site</a></b></p>
+              <div class="fotorama" data-fit="scaledown" data-allowfullscreen="true">
+                <img src="img/foto/pokoj3a.jpg">
+                <img src="img/foto/pokoj3b.jpg">
+                <img src="img/foto/pokoj3c.jpg">
+                <img src="img/foto/pokoj3d.jpg">
+                <img src="img/foto/pokoj3e.jpg">
+                <img src="img/foto/pokoj3laz.jpg">
+                <img src="img/foto/pokoj3laz2.pg">
+                <img src="img/foto/pokoj3wid.jpg">
+                <img src="img/foto/pokoj3wyc.jpg">
+                <img src="img/foto/pokoj3wyc2.jpg">
+                <img src="img/foto/pokoj3wyc3.jpg">
+                <img src="img/foto/pokoj3wyc4.jpg">
+              </div>
+              <p>Pokój zawiera dwa łózka 1os. i jedno 2os. Piękna panorama.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
             </div>
           </div>
           <!-- /.modal-content -->
@@ -113,13 +130,37 @@
       <!-- /.modal -->
       <div class="col-md-6 ">
         <h2 >POKÓJ 4 OS. Z BAKLONEM B</h2>
-        <a data-toggle="modal" href="#myModal">
+        <a data-toggle="modal" href="#myModal2">
           <div style="opacity: 1;background-image: url('img/foto/pokoj2bckgr.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;height: 250px; display: flex;justify-content: center;align-items: center" class="img-responsive">
           <h2 ><b>ZOBACZ ZDJĘCIA</b></h2>
           </div>
         </a>
       </div>
-      
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Pokój 4 os. z balkonem B</h4>
+            </div>
+            <div class="modal-body">
+              <div class="fotorama" data-fit="scaledown" data-allowfullscreen="true">
+                <img src="img/foto/pokoj2a.jpg">
+                <img src="img/foto/pokoj2b.jpg">
+                <img src="img/foto/pokoj2c.jpg">
+                <img src="img/foto/pokoj2laz.jpg">
+                <img src="img/foto/pokoj2laz2.jpg">
+              </div>
+              <p>Pokój zawiera dwa łózka 1os. i jedno 2os. Piękna panorama.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
       <!-- /col -->
     </div>
     <!-- /row -->
@@ -127,19 +168,73 @@
       <!-- PORTFOLIO IMAGE 3 -->
       <div class="col-md-6 ">
         <h2 >POKÓJ 5 OS.</h2>
-        <a data-toggle="modal" href="#myModal">
+        <a data-toggle="modal" href="#myModal3">
           <div style="opacity: 1;background-image: url('img/foto/pokoj1bckgr.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;height: 250px; display: flex;justify-content: center;align-items: center" class="img-responsive">
           <h2 ><b>ZOBACZ ZDJĘCIA</b></h2>
           </div>
         </a>
       </div>
+      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Pokój 4 os. z balkonem B</h4>
+            </div>
+            <div class="modal-body">
+              <div class="fotorama" data-fit="scaledown" data-allowfullscreen="true">
+                <img src="img/foto/pokoj1a.jpg">
+                <img src="img/foto/pokoj1b.jpg">
+                <img src="img/foto/pokoj1c.jpg">
+                <img src="img/foto/pokoj1d.jpg">
+                <img src="img/foto/pokoj1e.jpg">
+                <img src="img/foto/pokoj1f.jpg">
+                <img src="img/foto/pokoj1g.jpg">
+                <img src="img/foto/pokoj1h.jpg">
+              </div>
+              <p>Pokój zawiera dwa łózka, balkon i telewizor</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
       <div class="col-md-6 ">
         <h2 >WSPÓLNA KUCHNIA Z JADALNIĄ</h2>
-        <a data-toggle="modal" href="#myModal">
+        <a data-toggle="modal" href="#myModal4">
           <div style="opacity: 1;background-image: url('img/foto/kuchniabckgr.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;height: 250px; display: flex;justify-content: center;align-items: center" class="img-responsive">
           <h2 ><b>ZOBACZ ZDJĘCIA</b></h2>
           </div>
         </a>
+      </div>
+      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Pokój 4 os. z balkonem B</h4>
+            </div>
+            <div class="modal-body">
+              <div class="fotorama" data-fit="scaledown" data-allowfullscreen="true">
+                <img src="img/foto/kuchnia1.jpg">
+                <img src="img/foto/kuchnia2.jpg">
+                <img src="img/foto/kuchnia3.jpg">
+                <img src="img/foto/kuchnia4.jpg">
+                <img src="img/foto/kuchnia5.jpg">
+                <img src="img/foto/kuchnia6.jpg">
+              </div>
+              <p>Pokój zawiera dwa łózka, balkon i telewizor</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
       </div>
     </div>
   <!-- /row -->
@@ -335,7 +430,7 @@
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/easing/easing.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
 
