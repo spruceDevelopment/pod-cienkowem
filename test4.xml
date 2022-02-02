@@ -1,6 +1,0 @@
-<ns4:JednostkaMikro  xmlns:ns4="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/JednostkaMikroWZlotych" xmlns:ns10="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/JednostkaMikroStruktury" xmlns:ns11="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2016/01/25/eD/DefinicjeTypy/" xmlns:ns7="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/DefinicjeTypySprawozdaniaFinansowe/" xmlns:ns8="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/JednostkaInnaStruktury" xmlns:ns9="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/JednostkaMalaStruktury" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mf.gov.pl/schematy/SF/DefinicjeTypySprawozdaniaFinansowe/2018/07/09/JednostkaMikroWZlotych https://www.mf.gov.pl/documents/764034/6464789/JednostkaMikroWZlotych(1)_v1-0.xsd">
-   <ns4:Naglowek>
-      <ns7:OkresOd>2018-01-01</ns7:OkresOd>
-      <ns7:OkresDo>2018-12-31</ns7:OkresDo>
-   </ns4:Naglowek>
-</ns4:JednostkaMikro>
